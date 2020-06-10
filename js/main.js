@@ -15,4 +15,6 @@ window.onload = function () {
     // different game scenes like game over and start game, etc. in an array
     scene: [SceneMain],
   };
+  // crete the game itself which is the game object (game starter snippet)
+  game = new Phaser.Game(config);
 };
